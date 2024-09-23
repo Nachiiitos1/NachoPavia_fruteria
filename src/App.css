@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.fruteria-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.titulo {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  width: 80%; 
+  gap: 50px;
+}
+
+
+.product-list {
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.product-box {
+  background-color: #9fe99f;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%; 
+  text-align: left; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black; 
+}
+
+.product-box p {
+  margin: 0 10px; 
+  color: black; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black; 
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.ticket-list {
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ticket-box {
+  background-color: #30f530;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%; 
+  text-align: left;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black; 
+}
+
+.ticket-box p {
+  margin: 0 10px;
+  color: black; 
+}
+
+
+.total-box {
+  background-color: #aac9e9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%; 
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black; 
+}
+
+.ticket-list h2 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.total-box h3 {
+  margin: 0;
+  color: black; 
+}
